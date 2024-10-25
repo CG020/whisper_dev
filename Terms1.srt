@@ -1,0 +1,12 @@
+1
+00:00:00,000 --> 00:00:14,080
+Acute. Chronic. Asymptomatic. Idiopathic. Infection. Diagnosis. Prognosis. Anemia.
+
+2
+00:00:14,080 --> 00:00:33,920
+Hypertension. Arrhythmia. Inflammation. Lesion. Edema. Hypoglycemia. Biopsy. Incision. Catheter. Dialysis. Steroid.
+
+3
+00:00:33,920 --> 00:00:42,400
+Chemotherapy. Radiotherapy. Sepsis. Stroke. Osteoporosis.
+

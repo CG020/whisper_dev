@@ -3,6 +3,7 @@ import os
 import traceback
 import warnings
 from typing import TYPE_CHECKING, List, Optional, Tuple, Union
+import sys
 
 import numpy as np
 import torch
@@ -459,11 +460,13 @@ def transcribe(
                 if last_word_end is not None:
                     last_speech_timestamp = last_word_end
 
-            if verbose:
-                for segment in current_segments:
-                    start, end, text = segment["start"], segment["end"], segment["text"]
-                    line = f"[{format_timestamp(start)} --> {format_timestamp(end)}] {text}"
-                    print(make_safe(line))
+            with open('./output.txt', 'a') as f:
+                if verbose:
+                    for segment in current_segments:
+                        start, end, text = segment["start"], segment["end"], segment["text"]
+                        line = f"[{format_timestamp(start)} --> {format_timestamp(end)}] {text}"
+                        # print(make_safe(line))
+                        f.write(make_safe(line) + '\n')
 
             # if a segment is instantaneous or does not contain text, clear it
             for i, segment in enumerate(current_segments):

@@ -1,0 +1,5 @@
+Detecting language using up to the first 30 seconds. Use `--language` to specify the language
+Detected language: English
+[00:00.000 --> 00:14.080]  Acute. Chronic. Asymptomatic. Idiopathic. Infection. Diagnosis. Prognosis. Anemia.
+[00:14.080 --> 00:33.920]  Hypertension. Arrhythmia. Inflammation. Lesion. Edema. Hypoglycemia. Biopsy. Incision. Catheter. Dialysis. Steroid.
+[00:33.920 --> 00:42.400]  Chemotherapy. Radiotherapy. Sepsis. Stroke. Osteoporosis.
